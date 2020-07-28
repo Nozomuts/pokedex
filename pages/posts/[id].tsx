@@ -20,7 +20,7 @@ export default Post;
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const arr = [];
-  for (let i = 1; i <= 100; i++) {
+  for (let i = 1; i <= 151; i++) {
     arr.push(i);
   }
 
